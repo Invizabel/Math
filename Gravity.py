@@ -1,5 +1,6 @@
 ﻿import os
 
+# calculates force of gravity on an object! :)
 os.system("clear")
 
 grams = float(input("mass (grams):\n"))
