@@ -1,9 +1,5 @@
-﻿import os
-
 # calculates force of gravity on an object! :)
-os.system("clear")
-
 grams = float(input("mass (grams):\n"))
 meters = float(input("diameter (meters):\n"))
-
-print(str(0.266955e-12 * (grams / meters ** 2)) + " meters per second squared")
+result = 0.266955e-12 * (grams / meters ** 2)
+print(str(result) + " meters per second squared")
